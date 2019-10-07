@@ -16,7 +16,7 @@ CREATE TABLE mb_user (
 ) ENGINE=InnoDB AUTO_INCREMENT=1001 DEFAULT CHARSET=utf8;
 
 -- 内置管理员账户
-INSERT INTO mb_user values (DEFAULT, 'root', md5('rootabc123'), '18512341234', 'dj@itmojun.com', now(), now(), 2, 1);
+INSERT INTO mb_user values (DEFAULT, 'root', md5('rootabc123'), '18512341234', 'qjb@maricle.com', now(), now(), 2, 1);
 
 
 CREATE TABLE mb_message (
